@@ -4,44 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wow</title>
+    <title>My Retro Blog</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #00FF00;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+
+        h1 {
+            color: #FFCC00;
+            font-size: 36px;
+            text-align: center;
+            text-shadow: 2px 2px 5px #FF0000;
+        }
+
+        h2 {
+            color: #FFFF00;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        marquee {
+            font-size: 20px;
+            color: #FF00FF;
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto;
+            border: 2px solid #FF0000;
+            background-color: #0000FF;
+            padding: 10px;
+        }
+
+        a {
+            color: #FFFF00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #FF0000;
+            text-decoration: underline;
+        }
+
+        .footer {
+            background-color: #FFCC00;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        img {
+            border: 5px solid #FF00FF;
+        }
+
+        .flashing-text {
+            font-size: 24px;
+            color: #FF0000;
+            animation: flash 1s infinite alternate;
+        }
+
+        @keyframes flash {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
 </head>
 
-<body BGCOLOR="#FFFFCC" LINK="#162323" ALINK="#FFFFCE" VLINK="#162323">
-    <CENTER>
-        <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
-            <TR>
-                <TD BGCOLOR="#ffcc00" WIDTH="100%">
-                    <CENTER>
-                        <H1>life would be better with the old fourloko</H1>
-                    </CENTER>
-                </TD>
-            </TR>
-        </TABLE>
+<body>
+    <h1>WELCOME TO MY AWESOME 90s WEBSITE!</h1>
 
-        <BR><BR>
+    <marquee>Check out this cool scrolling text! So futuristic!</marquee>
 
-        <TABLE BORDER="0" CELLPADDING="10" CELLSPACING="0" WIDTH="80%" BGCOLOR="#FFFFFF">
-            <TR>
-                <TD BGCOLOR="#FFFFFF" STYLE="border: 1px solid #ddd;">
-                    <P ALIGN="CENTER"><B><FONT SIZE="4">hello, i need to be better</FONT></B></P>
-                    <P> i honestly don't know what im doing and i need to get my shit together. but i guess im not special for that huh. im tryna better myself because i fucked up majorly, and i dont respect or have any care for myself. i think that i need to understand who i am and what i stand for/like so im making this to organize those thoughts. dont really know what im gonna write about, maybe music, politics, life, food, culture, whatever i guess. maybe this'll serve as a little thing to represent who i am/was. im not expecting anyone but me to read this, i dont really want anyone i know reading this especially. who knows if this'll even last longer than this one addition. </P>
-                </TD>
-            </TR>
-        </TABLE>
+    <div class="container">
+        <img src="https://via.placeholder.com/300x200" alt="Cool Animated GIF">
+        <table>
+            <tr>
+                <td><a href="#topten">Top Ten Stories</a></td>
+                <td><a href="#guestbook">Sign My Guestbook!</a></td>
+            </tr>
+        </table>
 
-        <BR><BR>
+        <h2>life would be better with the old fourloko</h2>
+        <p class="flashing-text">Main Text: Bright flashing text, because why not?</p>
+        <p>Just like those retro websites from the 90s, we have GIFs, flashing text, and an overload of color!</p>
+    </div>
 
-        <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
-            <TR>
-                <TD BGCOLOR="#ffcc00" WIDTH="100%">
-                    <CENTER>
-                        <P>&copy; Footer</P>
-                    </CENTER>
-                </TD>
-            </TR>
-        </TABLE>
-    </CENTER>
+    <div class="footer">
+        <p>&copy; 1996 - 2024 RetroWeb Inc. | <a href="mailto:webmaster@retroweb.com">Contact the Webmaster</a></p>
+        <img src="https://via.placeholder.com/120x60" alt="Old 90s Ad Banner">
+    </div>
 </body>
 
 </html>
